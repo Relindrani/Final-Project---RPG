@@ -1,0 +1,40 @@
+﻿  PlayerClasses.cpp
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(25): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(28): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(68): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(110): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(113): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(154): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\playerclasses.cpp(157): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Player.cpp
+  Level.cpp
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\level.cpp(16): error C2039: 'LoadLevel': is not a member of 'Level'
+  c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\header files\level.h(7): note: see declaration of 'Level'
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\level.cpp(21): error C3861: 'SetDimensions': identifier not found
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\level.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\level.cpp(42): error C2556: 'std::vector<std::vector<char *,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> Level::GetMap(void)': overloaded function differs only by return type from 'std::vector<std::vector<char,std::allocator<char>>,std::allocator<_Ty>> Level::GetMap(void)'
+          with
+          [
+              _Ty=char *
+          ]
+          and
+          [
+              _Ty=std::vector<char,std::allocator<char>>
+          ]
+  c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\header files\level.h(19): note: see declaration of 'Level::GetMap'
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\level.cpp(42): error C2371: 'Level::GetMap': redefinition; different basic types
+  c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\header files\level.h(19): note: see declaration of 'Level::GetMap'
+  Engine.cpp
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(122): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(151): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(179): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(185): warning C4018: '<': signed/unsigned mismatch
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(188): warning C4018: '<': signed/unsigned mismatch
+  Enemy.cpp
+  main.cpp
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\main.cpp(15): error C3861: 'time': identifier not found
+  Generating Code...
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\engine.cpp(26): warning C4172: returning address of local variable or temporary: action
+c:\users\bbixler\google drive\visual studio projects\final project - rpg\final project - rpg\source files\player.cpp(95): warning C4715: 'Player::CombatLoop': not all control paths return a value
